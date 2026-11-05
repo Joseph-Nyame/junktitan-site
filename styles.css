@@ -1343,6 +1343,9 @@ section[id] { scroll-margin-top: 96px; }
 .page-hero-grid-split {
   align-items: center;
 }
+.page-hero-grid-solo {
+  grid-template-columns: minmax(0, 760px);
+}
 .page-hero-copy h1 { color: #fff; margin-bottom: 0.9rem; max-width: 16ch; }
 .page-hero .eyebrow { color: var(--amber); }
 .page-hero .lede { color: rgba(255, 255, 255, 0.76); }
